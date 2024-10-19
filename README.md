@@ -1,9 +1,8 @@
 ### Hi there 👋
-- 🔭 I’m currently working in vijua
-- 🌱 I’m currently learning Next js
+- 🔭 I’m currently working in Binder-sa
+- 🌱 I’m currently learning Ionic
 - 📫 How to reach me: https://www.linkedin.com/in/hady-hesham-011084159/ or https://portfolio3d-hady-7.vercel.app/
-- some projects: https://clinido.herokuapp.com/ for doctors reservation
-- https://weather-app-777.netlify.app/ for weather ⚡
+
 
 
 
