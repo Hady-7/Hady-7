@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Hady Hesham  Senior Front-End Developer">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1c24">
+        <animate attributeName="stop-color" values="#0b1c24;#12303a;#0b1c24" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#134e4a">
+        <animate attributeName="stop-color" values="#134e4a;#0f766e;#134e4a" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#042f2e">
+        <animate attributeName="stop-color" values="#042f2e;#115e59;#042f2e" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="glow1" cx="20%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#5eead4" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="85%" cy="70%" r="40%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ecfeff"/>
+      <stop offset="100%" stop-color="#99f6e4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="180" cy="90" r="140" fill="url(#glow1)">
+    <animate attributeName="cx" values="160;220;160" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="980" cy="260" r="160" fill="url(#glow2)">
+    <animate attributeName="cy" values="240;280;240" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.55;0.95;0.55" dur="9s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- soft grid -->
+  <g opacity="0.12" stroke="#ccfbf1" stroke-width="1">
+    <path d="M0 72 H1200 M0 144 H1200 M0 216 H1200 M0 288 H1200"/>
+    <path d="M150 0 V360 M300 0 V360 M450 0 V360 M600 0 V360 M750 0 V360 M900 0 V360 M1050 0 V360"/>
+  </g>
+
+  <text x="72" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" fill="#99f6e4" letter-spacing="4">
+    SENIOR FRONT-END DEVELOPER
+  </text>
+  <text x="72" y="198" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="url(#text)">
+    Hady Hesham
+  </text>
+  <text x="72" y="250" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#e2e8f0">
+    Angular · React · TypeScript · SaaS &amp; ERP interfaces
+  </text>
+
+  <g transform="translate(72,290)">
+    <rect width="150" height="36" rx="18" fill="#ccfbf1" fill-opacity="0.12" stroke="#99f6e4" stroke-opacity="0.55"/>
+    <text x="75" y="24" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#ccfbf1">Egypt</text>
+
+    <rect x="166" width="170" height="36" rx="18" fill="#ccfbf1" fill-opacity="0.12" stroke="#99f6e4" stroke-opacity="0.55"/>
+    <text x="251" y="24" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#ccfbf1">Binder · Present</text>
+
+    <rect x="352" width="210" height="36" rx="18" fill="#ccfbf1" fill-opacity="0.12" stroke="#99f6e4" stroke-opacity="0.55"/>
+    <text x="457" y="24" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#ccfbf1">Open to collaboration</text>
+  </g>
+</svg>

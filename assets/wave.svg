@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80" role="img" aria-label="Animated teal wave divider">
+  <defs>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="50%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#waveGrad)" opacity="0.9">
+    <animate attributeName="d"
+      dur="8s"
+      repeatCount="indefinite"
+      values="
+        M0,40 C150,10 300,70 450,40 C600,10 750,70 900,40 C1050,10 1125,55 1200,40 L1200,80 L0,80 Z;
+        M0,40 C150,70 300,10 450,40 C600,70 750,10 900,40 C1050,70 1125,25 1200,40 L1200,80 L0,80 Z;
+        M0,40 C150,10 300,70 450,40 C600,10 750,70 900,40 C1050,10 1125,55 1200,40 L1200,80 L0,80 Z
+      "/>
+  </path>
+  <path fill="#99f6e4" opacity="0.35">
+    <animate attributeName="d"
+      dur="6s"
+      repeatCount="indefinite"
+      values="
+        M0,50 C200,20 400,80 600,50 C800,20 1000,80 1200,50 L1200,80 L0,80 Z;
+        M0,50 C200,80 400,20 600,50 C800,80 1000,20 1200,50 L1200,80 L0,80 Z;
+        M0,50 C200,20 400,80 600,50 C800,20 1000,80 1200,50 L1200,80 L0,80 Z
+      "/>
+  </path>
+</svg>

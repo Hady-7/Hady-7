@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="12" viewBox="0 0 1200 12" role="img" aria-label="Gradient accent line">
+  <defs>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f766e" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#14b8a6"/>
+      <stop offset="50%" stop-color="#67e8f9">
+        <animate attributeName="offset" values="0.35;0.65;0.35" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="80%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0f766e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="12" rx="6" fill="url(#line)"/>
+</svg>
